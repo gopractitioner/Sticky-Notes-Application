@@ -1,15 +1,13 @@
-
+import React from 'react'
+import NotesPage from './pages/NotesPage'
 
 function App() {
 
   return (
-    <>
-      <div>
-        <h1>Sticky Notes</h1>
-      </div>
-
-    </>
-  )
+    <div id='app'>
+      <NotesPage />
+    </div>
+  );
 }
 
 export default App
