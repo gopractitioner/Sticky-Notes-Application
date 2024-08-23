@@ -2,7 +2,7 @@ import React from 'react'
 import NotesPage from './pages/NotesPage'
 
 function App() {
-
+  console.log('App rendered')
   return (
     <div id='app'>
       <NotesPage />
@@ -10,4 +10,4 @@ function App() {
   );
 }
 
-export default App
+export default App;
