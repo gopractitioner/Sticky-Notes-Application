@@ -41,6 +41,9 @@ const NoteCard = ({ note }) => {
                     style={{ color: colors.colorText }}
                     defaultValue={body}
                     ref={textAreaRef}
+                    onInput={() => {
+                        autoGrow(textAreaRef);
+                    }}
                 ></textarea>
             </div>
         </div>
